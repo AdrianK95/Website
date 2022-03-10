@@ -1,0 +1,74 @@
+
+
+div {
+    display: block;
+}
+
+body {
+    background-color: white;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #fafafa;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    background-color: limegreen;
+    line-height: 30px;
+    font-size: 15px;
+    z-index: 1000;
+}
+h1 {
+    border-bottom:0px;
+}
+center {
+    
+    color : black
+}
+
+.toc-category {
+    font-size: 100%;
+    background-color: white;
+    color: white
+}
+
+#categories {
+    background-color: white;
+    padding-bottom: 0%;
+}
+
+#Media-Connections {
+    background-color: white;
+    align-items: right;
+    right: 75%;
+}
+
+.profile {
+
+background-color: white;
+
+}
+
+.profile .photo {
+    display: block;
+    margin: auto;
+    width:500px;
+    height:400px;
+    align-items:left;
+}
+.profile.h2 {
+    background-color: white;
+}
+.about {
+    display: block;
+    margin: auto;
+}
+.articles {
+    
+    background-color: white;
+}

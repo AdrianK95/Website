@@ -1,0 +1,19 @@
+h1 {
+    text-align:center;
+    color: White;
+    background-color: black;
+    
+}
+
+.details {
+    text-align: center;
+    color: red;
+}
+
+.date{
+    float: left;
+}
+
+.Author{
+    float: right;
+}
