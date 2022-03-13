@@ -1,24 +1,21 @@
 
 
-div {
-    display: block;
-}
 
 body {
     background-color: white;
 }
 
 #header {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     font-family: 'Montserrat', sans-serif;
-    color: #fafafa;
+    color: black;
+    
     letter-spacing: 0.2em;
     text-transform: uppercase;
     text-align: center;
     width: 100%;
-    background-color: limegreen;
     line-height: 30px;
     font-size: 15px;
     z-index: 1000;
@@ -26,10 +23,7 @@ body {
 h1 {
     border-bottom:0px;
 }
-center {
-    
-    color : black
-}
+
 
 .toc-category {
     
@@ -38,6 +32,7 @@ center {
     color: white
 }
 
+
 #categories {
     background-color: white;
     
@@ -45,6 +40,8 @@ center {
 
 #Media-Connections {
     background-color: white;
+    border: 10px;
+    border-color: red;
     align-items: right;
     right: 75%;
 }
@@ -63,14 +60,40 @@ background-color: white;
     align-items:left;
     position:left;
 }
-.profile.h2 {
+.profile .h2 {
     background-color: white;
 }
 .about {
     display: block;
     margin: auto;
+    border: 1px;
+    border-color: red;
 }
 .articles {
     
     background-color: white;
+}
+
+.flex-container {
+    border: 1px;
+    
+    display: flex;
+    text-align: center;
+    gap: 8px;
+    color: white;
+}
+
+.flex-professional{
+    flex:1;
+    background-color: green;
+}
+
+.flex-personal {
+    flex:1;
+    background-color: green;
+}
+
+.flex-education {
+    flex:1;
+    background-color: green;
 }
