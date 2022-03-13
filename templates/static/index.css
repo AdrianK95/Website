@@ -9,7 +9,7 @@ body {
 }
 
 #header {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     font-family: 'Montserrat', sans-serif;
@@ -32,6 +32,7 @@ center {
 }
 
 .toc-category {
+    
     font-size: 100%;
     background-color: white;
     color: white
@@ -39,7 +40,7 @@ center {
 
 #categories {
     background-color: white;
-    padding-bottom: 0%;
+    
 }
 
 #Media-Connections {
@@ -58,8 +59,9 @@ background-color: white;
     display: block;
     margin: auto;
     width:500px;
-    height:400px;
+    height:600px;
     align-items:left;
+    position:left;
 }
 .profile.h2 {
     background-color: white;
